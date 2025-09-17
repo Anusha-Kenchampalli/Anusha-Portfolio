@@ -1,12 +1,35 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal **portfolio website** built with modern web technologies to showcase my projects, skills, and experience.  
+Designed with a clean UI, responsive layout, and interactive components to make it easy for visitors to explore my work.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Features
+- 🏠 Home, About, Projects, Certificates, Education and Contact sections  
+- 📱 Fully Responsive Design (Mobile & Desktop)  
+- 🎨 Modern UI with Tailwind CSS / Bootstrap  
+- ⚡ Fast and Optimized Performance  
+- 🔗 Project showcase with live links and GitHub repos  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Styling:** Tailwind CSS
+ 
+
+---
+
+## 🚀 Live Demo
+[🔗 View Portfolio](https://your-portfolio-link.com)  
+
+---
+
+## 📸 Screenshots
+(Add screenshots or GIFs of your portfolio website here)
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.

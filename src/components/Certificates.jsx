@@ -1,26 +1,24 @@
 import React from 'react';
 import { FaCertificate } from 'react-icons/fa';
-import powerBIImg from '../assets/powerBI.png';
-import uiuxImg from '../assets/uiux.jpg';
-import challengeCerImg from '../assets/21days-challenge.jpg'
+
 
 
 const Certificates = () => {
   const certificateData = [
     {
-      img : powerBIImg,
+      img : "https://res.cloudinary.com/dzpcirnqq/image/upload/v1756703476/Screenshot_2025-09-01_104057_ddn0jv.png",
       title: 'Microsoft Power BI Data Analyst Associate',
       organization: 'Office Master',
       year: '2025',
     },
     {
-      img : uiuxImg,
+      img : "https://res.cloudinary.com/dzpcirnqq/image/upload/v1756703082/UI_UX_Accomplishment_Certificate_go4afy.jpg",
       title: 'UI/UX Design',
       organization: 'NxtWave Institute of Advance Technologies',
       year: '2024',
     },
     {
-      img : challengeCerImg,
+      img : "https://res.cloudinary.com/dzpcirnqq/image/upload/v1758081308/21_days_accomplishment_cf_akla2w.jpg",
       title: '21 Days Coding Challenge',
       organization: 'NxtWave',
       year: '2024',
@@ -42,10 +40,15 @@ const Certificates = () => {
               key={index}
               className="bg-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center space-x-4 transform hover:bg-slate-700 hover:-translate-y-2 transition-all duration-300"
             >
+              
             <img src={cert.img} alt={cert.title} className=" object-cover  border-2 border-cyan-400"/>
-              <div>
-                <h3 className="text-lg font-bold text-white">{cert.title}</h3>
-                <p className="text-slate-400">{cert.organization} - {cert.year}</p>
+              
+              <div className='flex'>
+                <FaCertificate className="text-yellow-500 text-4xl mt-3 mr-3" />
+                <div>
+                  <h3 className="text-lg font-bold text-white">{cert.title}</h3>
+                  <p className="text-slate-400">{cert.organization} - {cert.year}</p>
+                </div>
               </div>
             </div>
           ))}
