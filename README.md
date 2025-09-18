@@ -27,7 +27,7 @@ Designed with a clean UI, responsive layout, and interactive components to make 
 ---
 
 ## 📸 Screenshots
-(Add screenshots or GIFs of your portfolio website here)
+![Anusha-Portfolio](https://res.cloudinary.com/dzpcirnqq/image/upload/v1758188623/Screenshot_2025-09-18_151219_ekzowg.png)
 
 ---
 
