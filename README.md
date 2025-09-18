@@ -31,5 +31,3 @@ Designed with a clean UI, responsive layout, and interactive components to make 
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License.
