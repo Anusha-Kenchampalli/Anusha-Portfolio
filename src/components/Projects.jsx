@@ -1,15 +1,11 @@
 import React from 'react';
-import projectImg1 from '../assets/project1.png'; 
-import projectImg2 from '../assets/project2.png';
-import projectImg3 from '../assets/project3.png';
-import TaskManager from '../assets/TaskManager.png'
 
 const Projects = () => {
    
     const projectData = [
         {
             title: 'NxtMart',
-            image: projectImg1,
+            image: "https://res.cloudinary.com/dzpcirnqq/image/upload/v1758179243/Screenshot_2025-09-18_123203_qw3mfm.png",
             description: 'An e-commerce platform built with React, featuring user authentication and payment integration.',
             liveLink: 'https://nxt-mart-nine.vercel.app/login',
             repoLink: 'https://github.com/Anusha-Kenchampalli/NxtMart',
@@ -17,7 +13,7 @@ const Projects = () => {
         },
         {
             title: 'Book Hub',
-            image: projectImg2,
+            image: "https://res.cloudinary.com/dzpcirnqq/image/upload/v1758179284/Screenshot_2025-09-18_123745_hw3yce.png",
             description: 'A book review application using reactjs and API integration to fetch book data.',
             liveLink: 'https://book-hub-online.netlify.app/bookshelves',
             repoLink: 'https://github.com/Anusha-Kenchampalli/Book-Hub',
@@ -25,7 +21,7 @@ const Projects = () => {
         },
         {
             title: 'Krishi AI',
-            image: projectImg3,
+            image: "https://res.cloudinary.com/dzpcirnqq/image/upload/v1758179387/Screenshot_2025-09-18_123921_t4j7b7.png",
             description: 'A farming assistant app that provides crop recommendations and weather updates using AI.',
             liveLink: 'https://kisan-sathi-ai-07.lovable.app/',
             repoLink: 'https://github.com/Anusha-Kenchampalli/kisan-sathi-ai-07',
@@ -33,7 +29,7 @@ const Projects = () => {
         },
         {
             title: "Task Manager",
-            image: TaskManager,
+            image: "https://res.cloudinary.com/dzpcirnqq/image/upload/v1758066032/Screenshot_2025-09-17_050921_ulnrln.png",
             description: `Task Manager (MERN Stack): A full-stack task management app with secure authentication and 
             role-based access. Features interactive dashboards with Pie & Bar chart for task insights and tabular views for easy tracking.
              Built using MongoDB, Express.js, React.js, Node.js, and Tailwind CSS.`,
