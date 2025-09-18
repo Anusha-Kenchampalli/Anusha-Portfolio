@@ -22,7 +22,7 @@ Designed with a clean UI, responsive layout, and interactive components to make 
 ---
 
 ## 🚀 Live Demo
-[🔗 View Portfolio](https://your-portfolio-link.com)  
+[🔗 View Portfolio](https://anushak-portfolio.netlify.app)  
 
 ---
 
