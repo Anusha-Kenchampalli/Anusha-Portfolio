@@ -35,7 +35,7 @@ const About = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 md:flex">
-        {/* About text */}
+    
         <div className="max-w-4xl mx-auto bg-slate-800 rounded-lg shadow-xl p-8 md:mr-3">
           <p className="text-slate-300 text-lg leading-relaxed mb-4">
             I am a computer science student at NIAT, driven by a strong passion for technology and innovation.
@@ -51,13 +51,13 @@ const About = () => {
           </p>
         </div>
 
-        {/* Highlights cards */}
+
         <div className="grid md:grid-cols-2 gap-5">
           {highlights.map((highlight, index) => {
-            const Icon = highlight.icon; // ✅ grab component reference
+            const Icon = highlight.icon; 
             return (
               <div key={index} className="bg-[#1d293d] p-5 rounded-lg">
-                <Icon className="w-8 h-8 text-blue-400 mb-3" /> {/* ✅ render as component */}
+                <Icon className="w-8 h-8 text-blue-400 mb-3" /> 
                 <h1 className="text-xl font-semibold text-white">
                   {highlight.title}
                 </h1>

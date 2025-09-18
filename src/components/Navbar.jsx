@@ -6,7 +6,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = ['Home', 'About Me', 'Education', 'Skills', 'Projects', 'Certificates', 'Contact'];
 
-  // Helper function to format nav item strings into IDs
   const toKebabCase = (str) => str.toLowerCase().replace(/\s+/g, '-');
 
   return (

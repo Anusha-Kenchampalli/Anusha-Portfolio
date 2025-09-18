@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Education = () => {
-  // Replace with your actual education data
+  
   const educationData = [
     {
       year: '2024 - 2028',

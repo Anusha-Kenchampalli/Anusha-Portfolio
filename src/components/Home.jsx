@@ -3,29 +3,27 @@ import Button from 'react-bootstrap/Button';
 import { BiLogoGithub } from 'react-icons/bi';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BiLogoGmail } from 'react-icons/bi';
-
-
 import { Link } from 'react-scroll';
-import profilePhoto from "../assets/profile-photo.jpg"; 
+
 const Home = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-slate-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
 
-          {/* Left Side: Profile Photo */}
+         
           <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
             <div className="w-74 h-74 lg:w-80 lg:h-80 relative group">
               <div className="absolute inset-0 bg-cyan-500 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition duration-500"></div>
               <img
-                src={profilePhoto} 
+                src="https://res.cloudinary.com/dzpcirnqq/image/upload/v1758178218/Anusha_l595zc.jpg" 
                 alt="Your Name"
                 className="w-full h-full sm:mt-[30px] object-cover rounded-full shadow-2xl relative z-10 transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
 
-          {/* Right Side: Introduction */}
+       
           <div className="md:w-2/3 text-center md:text-left md:ml-[15%]">
             <h1 className="text-2xl font-extrabold text-white leading-tight">
               &mdash; Hello, I'm <br/> <span className=" text-4xl sm:text-4xl lg:text-5xl text-cyan-400">Anusha Kenchampalli</span>
@@ -54,7 +52,7 @@ const Home = () => {
               </Link>
             </div>
 
-             {/* Social Links */}
+             
             <div className="flex space-x-4 mt-5 items-center justify-center md:justify-start md:ml-2">
               <Button variant="outline" size="sm" className="rounded-full" onClick={() => window.open('https://github.com/Anusha-Kenchampalli', '_blank')}>
                <BiLogoGithub size={25}/>
